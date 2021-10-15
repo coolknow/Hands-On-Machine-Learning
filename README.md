@@ -8,4 +8,23 @@ So, I created this repo, where I will continue to update my notes and thoughts o
 After studying this book, I hope to make some interesting applications using machine learning. For example, classifying photos of kittens, recognising speech sequences, implementing machine translation, etc. The journey of a thousand miles begins with a single step.
 
 ![avatar](/go-for-it.jpeg)
-### Progress
+### Content Status
+
+- [x] GPU, SSL, Jupyter
+- [ ] End-to-End ML Project
+- [ ] Classifiation
+- [ ] Regression
+- [ ] SVM
+- [ ] Decision Tree
+- [ ] Random Forest
+- [ ] Dimensionality reduction
+- [ ] Unsupervised learning
+- [ ] Keras
+- [ ] Neural Network
+- [ ] TensorFlow
+- [ ] CNN & CV
+- [ ] RNN & Time series
+- [ ] Attention & NLP
+- [ ] Auto-Encoder & GAN
+- [ ] Reinforcement learning
+- [ ] MLOps
