@@ -22,3 +22,11 @@ It provides an easy interface to GPU programming, and CUDA-based programming can
 
 ![avatar](/GPU-SSL-Jupyter/CUDA.png)
 
+### Miniconda
+'*Miniconda is a free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a small number of other useful packages, including pip, zlib and a few others. Use the conda install command to install 720+ additional conda packages from the Anaconda repository.*' Go to the official website of Miniconda and choose the right version and use wget to download in you ecs.
+
+- use `conda create` to build a new environment.
+- use `conda activate` to activate the environment you have just built.
+- use `conda install` to install packages you need.
+
+![avatar](/GPU-SSL-Jupyter/miniconda.png)
