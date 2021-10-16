@@ -16,3 +16,9 @@ You are still facing black terminal GUI, right? Don't worry, Let's set up the en
 - `sudo` gives you the right as a root user.
 - `apt-get` is a package management tool in Ubuntu that can be used to install and uninstall packages, to upgrade packages, and to upgrade the system to a new version.
 - `wget` is a tool for downloading files, which is used at the command line. It is an essential tool for Linux users, we often have to download some software or restore backups from a remote server to the local server.
+
+### CUDA
+It provides an easy interface to GPU programming, and CUDA-based programming can be used to build GPU computing-based applications that take advantage of the GPUs' parallel computing engine to solve more complex computing challenges more efficiently. Go to the official website of CUDA and choose the right version and use wget to download in you ecs.
+
+![avatar](/GPU-SSL-Jupyter/CUDA.png)
+
