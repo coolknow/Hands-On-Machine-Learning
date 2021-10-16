@@ -36,3 +36,8 @@ Pytorch is a Python-based scientific computing package that uses the power of a 
 Go to the official website of Pytorch and choose the right version and use pip to download in you ecs.
 
 ![avatar](/GPU-SSL-Jupyter/pytorch.png)
+
+### Jupyter Notebook
+Jupyter Notebook is a program that opens as a web page and allows you to write and run code directly on the web page, with the results displayed directly under the code block. If you need to write documentation during the programming process, you can do so directly on the same page, making it easy to provide timely instructions and explanations. In short, Jupyter Notebook is a server to let you avoid the black terminal and show the content at frontend nicely with the help of ssh port mapping.
+
+Remember the `ssh [name]@[public IP]` thing? Here we gonna add something in it. Try `ssh -L 8888:locallhost:8888 [name]@[public IP]` before you connect to ecs. This time, we aso connect to the ecs, however, we add a port mapping. What is it? It means the service at port 8888 in your ecs is mapped at your local port 8888. So, if you go to your browser and call 8888 after you have started your jupyter in ecs, you can see a nice interface shown up! ***Congratulations!***
