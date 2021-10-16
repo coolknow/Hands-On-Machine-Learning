@@ -30,3 +30,9 @@ It provides an easy interface to GPU programming, and CUDA-based programming can
 - use `conda install` to install packages you need.
 
 ![avatar](/GPU-SSL-Jupyter/miniconda.png)
+
+### Pytorch
+Pytorch is a Python-based scientific computing package that uses the power of a graphics processing unit. It is also one of the preferred deep learning research platforms built to provide maximum flexibility and speed. It is known to offer two top-level features: tensor computing with powerful GPU acceleration support and building deep neural networks on a tape-based automated programming system.
+Go to the official website of Pytorch and choose the right version and use pip to download in you ecs.
+
+![avatar](/GPU-SSL-Jupyter/pytorch.png)
