@@ -1,0 +1,2 @@
+# Before ML
+***To do a good job, an artisan needs the best tools.*** Before embarking on a machine learning project, we first need to set up a suitable development environment. In this section, I will describe the preparations that are made before a machine learning project is carried out. For example, acquiring a GPU, installing CUDA, configuring Miniconda and other tasks.
