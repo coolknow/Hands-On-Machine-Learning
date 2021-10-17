@@ -14,3 +14,5 @@ Alright, so now, what we need to learn is to figure out when to use what and why
 
 ### Relevance analysis
 As far as I am concerned, features are distint contributers of the final result. Let's imagine if two features are leading a same impact to the result, do we need both of them? The answer is **NO**, because thay have the same or similer overlapped contribution. So, to avoid or exclude overlapped features, here comes the relevance analysis.
+
+By using `.corr()` function, we can check the relavent degree between each two features. But the correlation coefficient only measures linear correlation. So it has the potential to completely miss non-linear correlations. For example, the closer x tends to zero, the larger y is. Therefore, we need to apply some transformations to such features, which might make the results better. Alternatively, we can optimise this process by constructing new features.
