@@ -11,3 +11,6 @@ It gives an indication of how much error the system will usually produce in its 
 ![avatar](/End-to-End_ML/MAE.jpg)
 
 Alright, so now, what we need to learn is to figure out when to use what and why, right? RMSE is usually the preferred performance metric for regression tasks, but if there are many outliers, we may consider using MAE. Why? The higher the number of paradigms, the more it focuses on large values and ignores small ones. For example, the l0 parametric number gives the number of non-zero elements in the vector, and the l infinity gives the maximum absolute value in the vector. Thus the higher the number of paradigms, the more it focuses on large values and ignores small values. This is the reason why RMSE is more sensitive to outliers than MAE. However, when outliers are rare in exponential form (e.g. bell curves), RMSE performs very well and is therefore usually preferred.
+
+### Relevance analysis
+As far as I am concerned, features are distint contributers of the final result. Let's imagine if two features are leading a same impact to the result, do we need both of them? The answer is **NO**, because thay have the same or similer overlapped contribution. So, to avoid or exclude overlapped features, here comes the relevance analysis.
